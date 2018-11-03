@@ -1,0 +1,95 @@
+body{
+	background-color: grey;
+	margin: 0 auto;
+}
+
+h4, p{
+	color: #949cab;
+}
+
+i{
+	margin-left: 10%;
+}
+
+a{
+	text-decoration: none;
+	color: #9dc950;
+}
+
+hr{
+	color:#949cab;
+	opacity: 0.5;    /*<<--- прозрачность 50%*/
+}
+
+
+
+.main{
+	width: 65%;  /*<<<------ основная ширина, на моем мониторе 65% */
+	margin: 3% auto;
+	border-radius: 12px;
+	background-image: url("images.jpg");
+	background-size: 100%;
+}
+
+.br-8{
+	border-radius: 8px
+}
+
+.button{
+	background-color: white;
+	margin: 2% auto;
+	width: 100%;
+	border:1px solid #949cab;
+	padding: 4% 0;
+	color:#949cab;
+}
+
+.button:hover{		/*Ховер - когда мышка над элементом*/
+	border-style: none;
+	box-shadow: 5px 22px 22px rgba(0,3,3,0.1); /* Параметры тени */
+	cursor:pointer;
+}
+
+.leftcontent{
+	padding-top: 3%;
+	background-color: white;
+	width: 70%;
+	border-radius: 12px 0px 0px 12px;
+}
+
+.upper{
+	text-transform:uppercase;  /*<<-----приводит текст в верхний регистр*/
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+	width: 30%;
+}
+
+.bottom{
+	margin: 5% auto;
+}
+
+.text{
+	width: 70%;
+}
+
+.row{
+	width: 80%;
+	margin: 5% auto;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bottom span{
+	margin-bottom: 6%;
+}
+
